@@ -6,5 +6,6 @@
 <img src="https://t1.picb.cc/uploads/2018/02/13/DbsB8.png"/><br/>
 如果图片涉及版权或有更好的背景图片还请联系我<br>
 此外，有任何问题也请随时和我联系
+【注：ios设备用户可能会出现记账和纪念日无法使用的bug，具体原因正在查找，感谢理解】
 邮箱：douyl17@163.com<br/>
 thanks
