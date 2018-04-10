@@ -1,3 +1,12 @@
+.todo{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url('https://t1.picb.cc/uploads/2018/04/10/21lWVG.md.jpg');
+  background-size: cover;
+}
 .inputform{
   width: 100%;
   display: flex;
@@ -31,23 +40,26 @@
   border-top: 1rpx solid #aaa;
 }
 .todoList .todo-content{
-  width: 90%;
-  margin: 30rpx auto;
+  position: absolute;
+  left:80rpx;
+  right:80rpx;
+  top: 200rpx;
+  bottom: 150rpx;
   font-size: 0.9em;
-  min-height: 670rpx;
+}
+.content{
+  width: 100%;
+  height:100%;
 }
 .todoList .todo-content .todoLine{
-  position: relative;
   display: flex;
   align-items: center;
-  letter-spacing: 1rpx;
-  margin-top:10rpx; 
-  padding-bottom: 10rpx;
-  border-bottom: 1rpx solid #aaa;
+  padding: 6rpx 0;
+  color: #222;
 }
 .clearIcon{
   position: absolute;
-  right: 10rpx;
+  right: 0;
 }
 .text{
   padding-left:10rpx; 
@@ -66,18 +78,19 @@
   text-overflow: ellipsis;
 }
 .todo-footer{
-  margin-top: 15rpx;
+  position: absolute;
   font-size: 0.8em;
   padding-top: 5rpx;
   padding-left: 15rpx;
   border-top: 2rpx solid #aaa;
-  bottom: 50rpx;
   color: #696969;
+  bottom: 0;
+  left:50rpx;
+  right: 50rpx;
 }
 .proverb{
   text-align: center;
   color: #696969;
-  font-size: 0.65em;
+  font-size: 0.9em;
   font-weight: 500;
-  margin-top: 20rpx;
 }

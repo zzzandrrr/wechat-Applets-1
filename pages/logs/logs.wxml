@@ -1,23 +1,23 @@
 <!--logs.wxml-->
-<scroll-view scroll-y="true" class='wrapper'>
-<view class='total-wrapper'>
-  <view class='bills-details-view'>
-    <view class='total'>
-      <view>
-        <text>收入(元)</text>
-        <text>{{totalIncome}}</text>
-      </view>
-      <view>
-        <text>支出(元)</text>
-        <text>{{totalExpenses}}</text>  
-      </view>
-      <view>
-        <text>结余(元)</text>
-        <text>{{surplus}}</text>
+<view class='wrapper'>
+  <view class='total-wrapper'>
+    <view class='bills-details-view'>
+      <view class='total'>
+        <view>
+          <text>收入(元)</text>
+          <text>{{totalIncome}}</text>
+        </view>
+        <view>
+          <text>支出(元)</text>
+          <text>{{totalExpenses}}</text>  
+        </view>
+        <view>
+          <text>结余(元)</text>
+          <text>{{surplus}}</text>
+        </view>
       </view>
     </view>
   </view>
-</view>
   
   <view class='detail'>
     <view wx:for="{{bills}}" wx:key="item">
@@ -102,4 +102,4 @@
       </picker-view-column>
     </picker-view>
   </view>
-</scroll-view>
+</view>
