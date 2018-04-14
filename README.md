@@ -1,6 +1,7 @@
 # wechat-Applets
 晴天豆是一款集合天气、记账、TodoList、纪念日的一款微信小程序
 扫描下方图片即可使用该小程序
+
 现在再看代码感觉自己好菜。。。有机会一定重写代码！！！！
 <img src="https://t1.picb.cc/uploads/2018/02/13/DbDJg.jpg"/><br/>
 进入之后的界面如下所示：<br/>
